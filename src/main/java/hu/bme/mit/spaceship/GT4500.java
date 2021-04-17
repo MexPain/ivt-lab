@@ -83,6 +83,7 @@ public class GT4500 implements SpaceShip {
         }
         //just trying the imitate a merge conflict
         //with these lines
+        //merge conflict is about to happen
         break;
     }
 
