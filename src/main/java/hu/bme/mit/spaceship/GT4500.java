@@ -81,7 +81,8 @@ public class GT4500 implements SpaceShip {
         if(!primaryTorpedoStore.isEmpty() && !secondaryTorpedoStore.isEmpty()){
           firingSuccess = primaryTorpedoStore.fire(1) && secondaryTorpedoStore.fire(1);
         }
-
+        //just trying the imitate a merge conflict
+        //with these lines
         break;
     }
 
