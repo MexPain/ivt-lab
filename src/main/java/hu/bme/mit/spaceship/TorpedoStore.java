@@ -4,8 +4,6 @@ import java.util.Random;
 
 /**
 * Class storing and managing the torpedoes of a ship
-*
-* (Deliberately contains bugs.)
 */
 public class TorpedoStore {
 
@@ -14,7 +12,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
-  Random generator = new Random();
+  private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
     this.torpedoCount = numberOfTorpedos;
