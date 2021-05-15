@@ -1,0 +1,10 @@
+fireTorpedoSingleSecondary_Success - kétszer lövünk egymás után, először a primaryStore-ból, majd a cooldown miatt a secondaryStore-ból fog lőni
+
+
+fireTorpedoSinglePrimary_Failure - lövünk egyet, de mindkét tároló üres
+
+fireTorpedoSinglePrimaryEmpty_Success - lövünk egyet, a primary üres, viszont a secondaryStore-ból már sikerül
+
+fireTorpedoAllBothEmpty_Failure - egyszerre lövünk mindkét tárolóból, viszont mindkettő üres, így sikertelen a lövés
+
+fireTorpedoAllPrimaryEmpty_Failure - egyszerre lövünk mindkét tárolóból, viszont a primary üres
